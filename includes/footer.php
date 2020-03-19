@@ -111,7 +111,7 @@ a:active {
 
 
 <ul class = "footer follow text-center">
-    <a href="https://www.linkedin.com/company/31058289/admin/" class="fa fa-linkedin"></a>
+    <a href="https://www.linkedin.com/company/digiyouth-infotech-digital-marketing-school-company" class="fa fa-linkedin"></a>
     <a href="https://www.instagram.com/digiyouthinfotech/" class="fa fa-instagram"></a>
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>

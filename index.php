@@ -57,81 +57,103 @@
   <button><a style="text-decoration: none;color:#fff;"  href="./mastery-program.php"><span class="glyphicon glyphicon-play"></span></i>Explore</a></button>
 </div>
 <!-- courses div -->
+<div id="wrapper-container" class="wrapper-container">
+            <div id="main-home-content" class="home-content home-page" role="main">
+                <div id="pl-9227" class="panel-layout">
+                    <div id="pg-9227-3" class="panel-grid panel-has-style course-mod">
+                        <div id="course-mod" class="panel-row-style panel-row-style-for-9227-3 pgc-9227-3-0">
+                            <div id="pgc-9227-3-0" class="panel-grid-cell panel-9227-3-0-0">
+                                        <div id="panel-9227-3-0-0" class="so-panel widget widget_heading panel-first-child" data-index="3">
+                                            <div class="panel-widget-style panel-widget-style-for-9227-3-0-0">
+                                                <div class="thim-widget-heading thim-widget-heading-base">
+                                                    <div class="sc_heading wpb_animate_when_almost_visible wpb_appear text-center wpb_start_animation">
+                                                        <h2 style="color:#ffffff;" class="title">Our Modules</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                <div id="panel-9227-3-0-1" class="widget_text so-panel widget widget_custom_html panel-last-child" data-index="4">
+                                    <div class="textwidget custom-html-widget">
+                                        <div class="col-md-12 main-mod">
 
-<div id="courses" class="section md-padding">
+                                            <div class="mod-thumb"> 
+                                                <img alt="SEARCH ENGINE OPTIMIZATION (SEO)" title="SEARCH ENGINE OPTIMIZATION (SEO)" src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" data-lazy-src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" class="lazyloaded" data-was-processed="true"><noscript>
+                                                      </noscript>
+                                                        <div><a href="./course-search-engine-optimization.php" style="color:black;">SEARCH ENGINE OPTIMIZATION (SEO)</a></div>
+                                            </div>
 
-<div class="container">
+                                            <div class="mod-thumb"> 
+                                                <img alt="SEARCH ENGINE OPTIMIZATION (SEO)" title="SEARCH ENGINE OPTIMIZATION (SEO)" src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" data-lazy-src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" class="lazyloaded" data-was-processed="true"><noscript>
+                                                      </noscript>
+                                                        <div><a href="./course-search-engine-optimization.php" style="color:black;">SEARCH ENGINE OPTIMIZATION (SEO)</a></div>
+                                            </div>
+                                            <div class="mod-thumb"> 
+                                                <img alt="SEARCH ENGINE OPTIMIZATION (SEO)" title="SEARCH ENGINE OPTIMIZATION (SEO)" src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" data-lazy-src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" class="lazyloaded" data-was-processed="true"><noscript>
+                                                      </noscript>
+                                                        <div><a href="./course-search-engine-optimization.php" style="color:black;">SEARCH ENGINE OPTIMIZATION (SEO)</a></div>
+                                            </div>
+                                            <div class="mod-thumb"> 
+                                                <img alt="SEARCH ENGINE OPTIMIZATION (SEO)" title="SEARCH ENGINE OPTIMIZATION (SEO)" src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" data-lazy-src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" class="lazyloaded" data-was-processed="true"><noscript>
+                                                      </noscript>
+                                                        <div><a href="./course-search-engine-optimization.php" style="color:black;">SEARCH ENGINE OPTIMIZATION (SEO)</a></div>
+                                            </div>
+                                            <div class="mod-thumb"> 
+                                                <img alt="SEARCH ENGINE OPTIMIZATION (SEO)" title="SEARCH ENGINE OPTIMIZATION (SEO)" src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" data-lazy-src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" class="lazyloaded" data-was-processed="true"><noscript>
+                                                      </noscript>
+                                                        <div><a href="./course-search-engine-optimization.php" style="color:black;">SEARCH ENGINE OPTIMIZATION (SEO)</a></div>
+                                            </div>
+                                            <div class="mod-thumb"> 
+                                                <img alt="SEARCH ENGINE OPTIMIZATION (SEO)" title="SEARCH ENGINE OPTIMIZATION (SEO)" src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" data-lazy-src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" class="lazyloaded" data-was-processed="true"><noscript>
+                                                      </noscript>
+                                                        <div><a href="./course-search-engine-optimization.php" style="color:black;">SEARCH ENGINE OPTIMIZATION (SEO)</a></div>
+                                            </div>
+                                            <div class="mod-thumb"> 
+                                                <img alt="SEARCH ENGINE OPTIMIZATION (SEO)" title="SEARCH ENGINE OPTIMIZATION (SEO)" src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" data-lazy-src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" class="lazyloaded" data-was-processed="true"><noscript>
+                                                      </noscript>
+                                                        <div><a href="./course-search-engine-optimization.php" style="color:black;">SEARCH ENGINE OPTIMIZATION (SEO)</a></div>
+                                            </div>
+                                            <div class="mod-thumb"> 
+                                                <img alt="SEARCH ENGINE OPTIMIZATION (SEO)" title="SEARCH ENGINE OPTIMIZATION (SEO)" src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" data-lazy-src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" class="lazyloaded" data-was-processed="true"><noscript>
+                                                      </noscript>
+                                                        <div><a href="./course-search-engine-optimization.php" style="color:black;">SEARCH ENGINE OPTIMIZATION (SEO)</a></div>
+                                            </div>
+                                            <div class="mod-thumb"> 
+                                                <img alt="SEARCH ENGINE OPTIMIZATION (SEO)" title="SEARCH ENGINE OPTIMIZATION (SEO)" src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" data-lazy-src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" class="lazyloaded" data-was-processed="true"><noscript>
+                                                      </noscript>
+                                                        <div><a href="./course-search-engine-optimization.php" style="color:black;">SEARCH ENGINE OPTIMIZATION (SEO)</a></div>
+                                            </div>
+                                            <div class="mod-thumb"> 
+                                                <img alt="SEARCH ENGINE OPTIMIZATION (SEO)" title="SEARCH ENGINE OPTIMIZATION (SEO)" src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" data-lazy-src="https://192841-578335-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/icons/seo.svg" class="lazyloaded" data-was-processed="true"><noscript>
+                                                      </noscript>
+                                                        <div><a href="./course-search-engine-optimization.php" style="color:black;">SEARCH ENGINE OPTIMIZATION (SEO)</a></div>
+                                            </div>
 
-<div class="row">
-
-<div class="section-header text-center">
-
-<h2 class="title">Our Modules</h2>
-</div>
-
-
-<div class="col-md-4 col-sm-6">
-<div class="service" >
-<img src="img/seo-course.jpg" alt="Digiyouth Infotech">
-<h3 ><a href="./course-search-engine-optimization.php" style="color:black;">Search Engine Optimization</a></h3>
-<p>Google answers over 40,000 search queries every second, Can you imagine? Ever wonder? How Google finds the right answer?</p>
-</div>
-</div>
-
-
-<div class="col-md-4 col-sm-6">
-<div class="service">
-<img src="img/adwords.jpg" alt="Digiyouth Infotech">
-<h3><a href="./course-content-marketing.php" style="color:black;">Content Marketing</a></h3>
-<p>Content marketing is an art to selling your product. Whether you’re a start-up or an established company, content matters most in terms of growth. Premium quality content, blogs.</p>
-</div>
-</div>
-
-
-<div class="col-md-4 col-sm-6">
-<div class="service">
-<img src="img/blogging.jpg" alt="Digiyouth Infotech">
-<h3><a href="./course-influencer-marketing.php" style="color:black;">Influencer Marketing</a></h3>
-<p>Influencer marketing or IM engages the brand advertising option where a person will influence your business. We assist our clients to opt out the best person in the market ...</p>
-</div>
-</div>
-
-
-
-</div>
-<div class="row">
-
-<div class="col-md-4 col-sm-6">
-<div class="service">
-<img src="img/affilate.jpg" alt="Digiyouth Infotech">
-<h3><a href="./course-display-advertising.php" style="color:black;">Display Advertising</a></h3>
-<p>The brand new business module in digital marketing segment is display advertising, effective yet low-cost module which is successfully run in the market. We offer our clients several ...</p>
-</div>
-</div>
-
-
-<div class="col-md-4 col-sm-6">
-<div class="service" style="text-align: center;">
-<span  style="font-size:32px;padding:16px" class="glyphicon glyphicon-pencil"></span>
-<h3><a href="./course-social-media-marketing.php" style="color:black;">Social Media Marketing</a></h3>
-<p>By 2019, there will be more than  2.77 billion social media users across the globe. We are here to help you understand Social media marketing and how it works.</p>
-</div>
-</div>
-
-
-<div class="col-md-4 col-sm-6">
-<div class="service">
-<img src="img/sales-training-course.jpg" alt="Digiyouth Infotech">
-<h3><a href="./course-remarketing.php" style="color:black;">Remarketing </a></h3>
-<p>Remarketing or redirecting is a very cost-effective way to display your ads on the site. We recommend our clients who are merely a start-up, can avail the  remarketing from Google Adwords.</p>
-</div>
-</div>
-</div>
-
-</div>
-
-</div>
-
+                                        </div>
+                                        <style>
+                                            .course-mod div.main-mod{display:flex;flex-wrap:wrap}
+                                            .course-mod div.mod-thumb{display:flex;flex-direction:column;
+                                            flex-wrap:wrap;flex:1 1 18%;height:auto;min-height:145px!important}
+                                            .course-mod div.mod-thumb img{margin:0 auto;margin-bottom:20px}
+                                            .home-coun-sec,.counter-sec{background:#0e76bc!important;position:relative;z-index:9}
+                                            .home-coun-sec:before,.counter-sec:before{
+                                            content:"";position:absolute;right:0;top:0;color:#FFF;opacity:.1;width:20%;height:100%;
+                                            text-shadow:-1px -1px 0 #FFF,1px -1px 0 #FFF,-1px 1px 0 #FFF,1px 1px 0 #FFF;
+                                            font:normal normal normal 314px/1 FontAwesome}
+                                            .siteorigin-panels-stretch .panel-grid-cell{ width:50%}
+                                            @media only screen and (max-width:767px){.course-mod div.mod-thumb{flex:1 1 25%}.home-coun-sec:before{
+                                            font:normal normal normal 314px/2 FontAwesome}}@media only screen and (max-width:640px){
+                                            .course-mod div.mod-thumb{flex:1 1 33.33%}}
+                                            @media only screen and (max-width:480px){
+                                            .course-mod div.mod-thumb{flex:1 1 45%}}
+                                        </style>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>       
 
 <!-- Counter Start -->
 

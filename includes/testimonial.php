@@ -33,21 +33,21 @@ Image credits: unsplash.com
 /********************************/
 .hero {
     position: absolute;
-    top: 30%;
     left: 50%;
     z-index: 3;
-    font-style:italic;
-    font-family: inherit;
+    font-family: 'Montserrat';
     color: #333;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    font-weight:bold;
       -webkit-transform: translate3d(-50%,-50%,0);
          -moz-transform: translate3d(-50%,-50%,0);
           -ms-transform: translate3d(-50%,-50%,0);
            -o-transform: translate3d(-50%,-50%,0);
               transform: translate3d(-50%,-50%,0);
+              background-color:white;
 }
+
 .hero h1 {
     font-size: 4em;    
     font-weight: bold;
@@ -75,22 +75,17 @@ Image credits: unsplash.com
 /********************************/
 /*            Overlay           */
 /********************************/
-.overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #080d15;
-    opacity: .7;
-}
+
 .hero h1,h4{
   color:#000;
   font-style: normal;
 }
+
 .hero img{
-  border-radius: 50%;
-  height:100px;
-  width: 100px;
-  float: left;
+  border-radius: 60%;
+  height:125px;
+  width: 125px;
+  float: center;
 
 }
 .hero h3{
@@ -124,34 +119,116 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(img/testimonial_background.jpeg); 
+  background-color:white;
 
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url(img/testimonial_background.jpeg);
+  background-color:white;
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url(img/testimonial_background.jpeg);
+  background-color:white;
 }
 
 /********************************/
 /*          Media Queries       */
 /********************************/
 @media screen and (min-width: 980px){
-    .hero { width: 980px; }    
+    .hero { width: 980px; }
+    .content{
+      padding-top:25px;
+    }  
+    .hero  h1{
+      position:relative;
+      padding-left:25%;
+    }
 }
 @media screen and (max-width: 640px){
-    .hero h1 { font-size: 4em; }    
-}</style>
+    .hero h1 { font-size: 3.8em; } }
+    
+@media screen and (min-width: 801px) {
+.testimony{
+  height:420px;
+}
+.hero{
+  top:30%;
+}}
+@media screen and (min-width: 400px)and (max-width: 1024px) {
+br{
+  display:none;
+}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+.testimony{
+  height:700px;
+}
+.hero{
+  top:25%;
+}
+
+}
+@media screen and (min-width: 375px) and (max-width: 640px){
+.testimony{
+  padding-top:0;
+  height:725px;
+} 
+.hero{
+  top:43%;
+}
+.content h4{
+  font-weight:normal;
+  font-size:14px;
+}
+}
+
+@media screen and (min-width: 640px) and  (max-width: 799px) {
+  .hero{
+    top:55%;
+  }
+.testimony{
+  padding-top:4%;
+  height:675px;
+} 
+.content h4{
+  font-weight:normal;
+  font-size:15px;
+}
+.testimonialrow{
+  height:900px;
+}
+}
+.content h4{
+  font-weight:430;
+}
+@media screen and (max-width: 374px){
+  .hero{
+    top:50%;
+  }
+  .testimony{
+  height:650px;
+} 
+  .content h4{
+  font-weight:normal;
+  font-size:15px;
+}
+}
+@media screen and (max-width: 340px){
+  .content h4{
+  font-weight:normal;
+  font-size:11px;
+}
+.testimony{
+  height:600px;
+} 
+}
+</style>
 
 
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
-<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel" style="height: 400px">
-  <!-- Overlay -->
-  <div class="overlay"></div>
-
+<div class="carousel fade-carousel slide testimony" data-ride="carousel" data-interval="4000" id="bs-carousel" >
+ 
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
@@ -166,22 +243,22 @@ Image credits: unsplash.com
       <div class="hero">
         <hgroup>
             <h1>DIGIYOUTH is creative</h1> 
-          <div class="row">
+          <div class=" testimonialrow row">
             <div class="col-md-3">
               <div>
             <img src="img/ANUJ.jpg">
-            </div>
+            
             <h4>ANUJ CHOUDHARY</h4>
-            <span>DIGITAL MARKETING TRAINER</span>
-
+            <p>DIGITAL MARKETING TRAINER</p>
           </div>
-          <div class="col-md-9"> 
+          </div>
+          <div class="col-md-9 content"> 
                  
-            <h3>"During my Digital Marketing course from DIGIYOUTH INFOTECH. I started writing FITNESS blogs, freelancing for startups; after that there was no looking back! Next thing I know is I got a call from blackberry’s menswear to work as a Digital Marketer. I recently got facilitated by DIGIYOUTH INFOTECH as a Digital marketing Trainer, wherein I educate entrepreneurs about Digital Marketing . "</h3>
+            <h4>"During my Digital Marketing course from DIGIYOUTH INFOTECH. I started writing FITNESS blogs, freelancing for startups; after that there was no looking back! Next thing I know is I got a call from blackberry’s menswear to work as a Digital Marketer. I recently got facilitated by DIGIYOUTH INFOTECH as a Digital marketing Trainer, wherein I educate entrepreneurs about Digital Marketing."</h4>
           </div>
           </div>
         </hgroup>
-        <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
+         <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> --> 
       </div>
     </div>
     <div class="item slides">
@@ -190,20 +267,21 @@ Image credits: unsplash.com
         <hgroup>
 
             
-            <h1>DIGIYOUTH is smart</h1> 
-               <div class="row">
+            <h1>DIGIYOUTH is <br>smart</h1> 
+               <div class="testimonialrow row">
                 <div class="col-md-3">
-            <img src="img/prabhat.jpg"> 
+            <img src="img/prabhat.jpg">
             <h4>Prabhat Sharma</h4>
             <p>Content-Writer</p>
             </div>  
-            <div class="col-md-9"> 
-            <h3>"I acquired a great hand at Online Marketing from the Digital Marketing Institute, DIGIYOUTH INFOTECH, and expertised in affiliate marketing and SEO strategies. Now I have a well flourished blogging website that I’d build from scratch! I was doing a regular 9-5 job, the decision of learning Digital Marketing course at DIGIYOUTH INFOTECH changed my life completely!"</h3>
+            <div class="col-md-9 content"> 
+              
+            <h4>"I acquired a great hand at Online Marketing from the Digital Marketing Institute, DIGIYOUTH INFOTECH, and expertised in affiliate marketing and SEO strategies. Now I have a well flourished blogging website that I’d build from scratch! I was doing a regular 9-5 job, the decision of learning Digital Marketing course at DIGIYOUTH INFOTECH changed my life completely!"</h4>
           </div>
           </div>
        
         </hgroup>       
-        <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
+         <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> --> 
       </div>
     </div>
     <div class="item slides">
@@ -211,20 +289,20 @@ Image credits: unsplash.com
       <div class="hero">        
         <hgroup>
           <h1>DIGIYOUTH is amazing</h1>
-          <div class="row">
+          <div class="testimonialrow row">
             <div class="col-md-3">
            
             <img src="img/jyoti.jpg">
             <h4>JYOTI YADAV</h4>
             <p>DIGITAL MARKETING EXPERT</p> 
             </div>
-            <div class="col-md-9"> 
+            <div class="col-md-9 content"> 
 
-            <h3>"I always wanted to put out in the world my fashion stories but never got the perfect means. I did my Digital Marketing course in Delhi from DIGIYOUTH INFOTECH and leant how to blog and spread my fashion stories in the digital world. Finding and reaching a big audience base for my fashion stories never felt easier!"</h3>
+            <h4>"I always wanted to put out in the world my fashion stories but never got the perfect means. I did my Digital Marketing course in Delhi from DIGIYOUTH INFOTECH and leant how to blog and spread my fashion stories in the digital world. Finding and reaching a big audience base for my fashion stories never felt easier!"</h4>
           </div>
         </div>
         </hgroup>
-        <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
+         <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> --> 
       </div>
     </div>
   </div> 

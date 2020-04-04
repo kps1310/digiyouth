@@ -1,2 +1,2 @@
 # Digital Marketing School & Agency
-Digiyouth Infotech
+Youth Development Program

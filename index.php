@@ -1,6 +1,60 @@
 
 
 <?php include 'includes/header.php' ?>
+<!-- popup starts here -->
+<div id="popup1" class="modal-box">
+  <header> <a href="#" class="js-modal-close close">×</a>
+</header>
+  <div class="modal-body">
+    <img class="popupimg" src="img/carousel4.jpg"/>
+  </div>
+</div>
+</script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script>
+$(function(){
+var appendthis =  ("<div class='modal-overlay js-modal-close'></div>");
+
+$(document).ready(function(){
+  
+    $("body").append(appendthis);
+    $(".modal-overlay").fadeTo(500, 0.6);
+		var modalBox ='popup1';
+		$('#popup1').fadeIn($('popup1').data());
+	});  
+  
+  
+$(".js-modal-close, .modal-overlay").click(function() {
+    $(".modal-box, .modal-overlay").fadeOut(500, function() {
+        $(".modal-overlay").remove();
+    });
+ 
+});
+ 
+$(window).resize(function() {
+    $(".modal-box").css({
+        top: ($(window).height() - $(".modal-box").outerHeight()) / 2,
+        left: ($(window).width() - $(".modal-box").outerWidth()) / 2
+    });
+});
+ 
+$(window).resize();
+ 
+});
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- popup ends here -->
 <div id="heading">
   <h1>DIGIYOUTH INFOTECH - DIGITAL MARKETING SCHOOL|AGENCY</h1>
   <p style="margin:1em 4em">DigiYouth Infotech is one of the most trusted Digital Marketing School and Agency in India .</p>
@@ -64,6 +118,8 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+
+  
 <div class="home-wrapper">
 <div class="container">
   <!-- <h2 style="color:wheat;font-weight: 600;font-size:50px;">Youth Development Program</h2>
@@ -81,7 +137,7 @@
 </div>
 <!-- courses div -->
 
-<section class="cid-rUmAIVE18Z mbr-parallax-background">
+<section id="courses" class="cid-rUmAIVE18Z mbr-parallax-background">
     <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(239, 239, 239);">
     </div>
     <div class="container  kps1">

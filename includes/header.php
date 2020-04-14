@@ -18,11 +18,11 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css">
 	<script type="text/javascript" src="js/main.js"></script>
-
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155747085-1"></script>
 <script>
@@ -53,7 +53,7 @@
           itemsMobile : false
      
       });
-     
+
     });
 
 
@@ -179,7 +179,7 @@
                   
                   <li><a  href="./"><b>COMPANY</b></a></li>
 
-<li class="has-dropdown"><a href="./#service"><b> DIGITAL MARKETING COURSES </b></a>
+<li class="has-dropdown"><a href="./#courses"><b> DIGITAL MARKETING COURSES </b></a>
 <ul class="dropdown" style="position:absolute;">
 <li><a href="./course-search-engine-optimization.php">SEO</a></li>
 <li><a href="./course-content-marketing.php">Content Marketing</a></li>
@@ -191,7 +191,7 @@
  <!--<li><a href="#portfolio">Portfolio</a></li> -->
 <li><a href="index.php"><img class="logo" src="img/Webp.net-resizeimage (1).png" alt="logo"></a></li>
  <!--<li><a href="#pricing">Prices</a></li> -->
-<li class="has-dropdown"><a href="./#courses"><b> DIGITAL MARKETING SERVICES </b></a>
+<li class="has-dropdown"><a href="./#service"><b> DIGITAL MARKETING SERVICES </b></a>
 <ul class="dropdown" style="position:absolute;">
 <li><a href="./search-engine-optimization.php">SEO</a></li>
 <li><a href="./social-media-marketing.php">SMM</a></li>

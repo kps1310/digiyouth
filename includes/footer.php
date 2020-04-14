@@ -1,25 +1,25 @@
 <footer id="footer" class="sm-padding bg-dark">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-a:link {
+.footerlink:link {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:visited {
+.footerlin:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:hover {
+.footerlink:hover {
   color: blue;
   background-color: transparent;
   text-decoration: underline;
 }
 
-a:active {
+.footerlink:active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
@@ -29,11 +29,11 @@ a:active {
 }
 .fa {
   padding: 5px;
-  font-size: 30px;
-  width: 30px;
+  font-size: 20px;
+  
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 0 4px;
 }
 
 
@@ -76,7 +76,7 @@ a:active {
 <div class="col-md-12">
 
 <div class="footer-logo">
-<a href="https://youthdevelopmentprogram.co.in/index.php"><img src="img/Webp.net-resizeimage (1).png" alt="logo"></a>
+<a href="https://youthdevelopmentprogram.co.in/index.php" class="footerlink"><img src="img/Webp.net-resizeimage (1).png" alt="logo"></a>
 </div>
 <div class="row">
 	<div class="col-md-4">
@@ -99,11 +99,11 @@ a:active {
 	<div class="col-md-4">
 		<h3>Courses</h4>
 		<ul>
-		   <li><a href="https://youthdevelopmentprogram.co.in/course-social-media-marketing.php"> Social Media Marketing</a></li>
-<li style="color:white;"><a href="https://youthdevelopmentprogram.co.in/course-influencer-marketing.php">Influencer Marketing</a></li>
-<li><a href="https://youthdevelopmentprogram.co.in/course-search-engine-optimization.php">Search Engine Optimization</a></li>
-<li><a href="https://youthdevelopmentprogram.co.in/course-content-marketing.php">Content Marketing</a></li>
-<li><a href="https://youthdevelopmentprogram.co.in/course-display-advertising.php">Display Advertising</a></li>
+		   <li><a  class="footerlink" href="https://youthdevelopmentprogram.co.in/course-social-media-marketing.php"> Social Media Marketing</a></li>
+<li style="color:white;"><a href="https://youthdevelopmentprogram.co.in/course-influencer-marketing.php" class="footerlink">Influencer Marketing</a></li>
+<li><a href="https://youthdevelopmentprogram.co.in/course-search-engine-optimization.php" class="footerlink">Search Engine Optimization</a></li>
+<li><a href="https://youthdevelopmentprogram.co.in/course-content-marketing.php" class="footerlink">Content Marketing</a></li>
+<li><a href="https://youthdevelopmentprogram.co.in/course-display-advertising.php" class="footerlink">Display Advertising</a></li>
 	
 		   	</ul>
 	</div>
@@ -112,10 +112,10 @@ a:active {
 
 <ul class = "footer follow text-center">
     <a href="https://www.linkedin.com/company/digiyouth-infotech-digital-marketing-school-company" class="fa fa-linkedin"></a>
-    <a href="https://www.instagram.com/digiyouthinfotech/" class="fa fa-instagram"></a>
+    <a href="https://www.instagram.com/digiyouthinfotech/" class="fa fa-instagram "></a>
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa  fa-google"></a>
 </ul>
 
 

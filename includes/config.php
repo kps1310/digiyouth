@@ -2,9 +2,9 @@
 
 // getting req. variables for connection string from env vars
 $localhost = 'localhost';
-$DBNAME = 'youthexm_ydp';
-$USERNAME = 'youthexm';
-$PASSWORD = 'fitnesslove@409';
+$DBNAME = 'digiyouth';
+$USERNAME = 'debian-sys-maint';
+$PASSWORD = 'PGfv2vUiagFYJNFw';
 $DBPORT='3306';
 
 $db=mysqli_connect($localhost,$USERNAME,$PASSWORD,$DBNAME);

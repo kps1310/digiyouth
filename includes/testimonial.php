@@ -119,31 +119,31 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-color:white;
+  background-image:url('img/backtestimony.png');
 
 }
 .fade-carousel .slides .slide-2 {
-  background-color:white;
+  background-image:url('img/backtestimony.png');
 }
 .fade-carousel .slides .slide-3 {
-  background-color:white;
+  background-image:url('img/backtestimony.png');
 }
 
 /********************************/
 /*          Media Queries       */
 /********************************/
 @media screen and (min-width: 980px){
-    .hero { width: 980px; }
-    .content{
-      padding-top:25px;
-    }  
+    .hero { width: 980px;
+    padding-top:25px; 
+  }
+     
     .hero  h1{
       position:relative;
       padding-left:25%;
     }
 }
 @media screen and (max-width: 640px){
-    .hero h1 { font-size: 3.8em; } }
+    .hero h1 { font-size: 3.5em; } }
     
 @media screen and (min-width: 801px) {
 .testimony{
@@ -221,6 +221,9 @@ br{
   height:600px;
 } 
 }
+.hero{
+  background-color:white;
+}
 </style>
 
 
@@ -242,7 +245,7 @@ br{
       <div class="slide-1"></div>
       <div class="hero">
         <hgroup>
-            <h1>DIGIYOUTH is creative</h1> 
+             
           <div class=" testimonialrow row">
             <div class="col-md-3">
               <div>
@@ -253,7 +256,7 @@ br{
           </div>
           </div>
           <div class="col-md-9 content"> 
-                 
+            <h1>DIGIYOUTH is creative</h1>    
             <h4>"During my Digital Marketing course from DIGIYOUTH INFOTECH. I started writing FITNESS blogs, freelancing for startups; after that there was no looking back! Next thing I know is I got a call from blackberry’s menswear to work as a Digital Marketer. I recently got facilitated by DIGIYOUTH INFOTECH as a Digital marketing Trainer, wherein I educate entrepreneurs about Digital Marketing."</h4>
           </div>
           </div>
@@ -267,7 +270,7 @@ br{
         <hgroup>
 
             
-            <h1>DIGIYOUTH is <br>smart</h1> 
+            
                <div class="testimonialrow row">
                 <div class="col-md-3">
             <img src="img/prabhat.jpg">
@@ -275,7 +278,7 @@ br{
             <p>Content-Writer</p>
             </div>  
             <div class="col-md-9 content"> 
-              
+            <h1>DIGIYOUTH is smart</h1> 
             <h4>"I acquired a great hand at Online Marketing from the Digital Marketing Institute, DIGIYOUTH INFOTECH, and expertised in affiliate marketing and SEO strategies. Now I have a well flourished blogging website that I’d build from scratch! I was doing a regular 9-5 job, the decision of learning Digital Marketing course at DIGIYOUTH INFOTECH changed my life completely!"</h4>
           </div>
           </div>
@@ -288,7 +291,7 @@ br{
       <div class="slide-3"></div>
       <div class="hero">        
         <hgroup>
-          <h1>DIGIYOUTH is amazing</h1>
+          
           <div class="testimonialrow row">
             <div class="col-md-3">
            
@@ -297,7 +300,7 @@ br{
             <p>DIGITAL MARKETING EXPERT</p> 
             </div>
             <div class="col-md-9 content"> 
-
+            <h1>DIGIYOUTH is amazing</h1>
             <h4>"I always wanted to put out in the world my fashion stories but never got the perfect means. I did my Digital Marketing course in Delhi from DIGIYOUTH INFOTECH and leant how to blog and spread my fashion stories in the digital world. Finding and reaching a big audience base for my fashion stories never felt easier!"</h4>
           </div>
         </div>
